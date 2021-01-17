@@ -30,6 +30,24 @@ iframe {
     left: 0;
 }
 
+@media screen and (max-width: 64em) { /* 900px theme */
+  .vidwrapper {
+         max-width: 75%;
+  }
+  
+  .blogvidwrapper {
+         max-width: 90%;
+  }
+    
+ @media screen and (max-width: 37.5em) { /* 600px theme */
+    .vidwrapper {
+         max-width: 94%;
+  }
+  
+  .blogvidwrapper {
+         max-width: 100%;
+  }
+
 /* THIS GOES INTO AN HTML BLOCK ON A PAGE IN WORDPRESS
 
 <div class="blogvidwrapper">
